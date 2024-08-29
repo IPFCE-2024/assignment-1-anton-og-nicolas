@@ -1,10 +1,19 @@
 #include <stdio.h>
 
-int main() {
+int main(void)
+{
+    int x, y, t;
 
-    // printf("Hello, World!\n");
-    // int input;
-    // scanf("%d", &input);
-    
+    printf("Input two numbers: \n");
+    scanf("%d%d", &x, &y);
+
+    printf("Input = (%d,%d)\n", x, y);
+
+    t = x;
+    x = y;
+    y = t;
+
+    printf("output = (%d,%d)\n", x, y);
+
     return 0;
 }
