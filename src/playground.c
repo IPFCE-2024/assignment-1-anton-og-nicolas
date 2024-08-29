@@ -2,7 +2,8 @@
 
 // You can use this file to test your code, and experiment with C :D
 
-int main() {
+int main()
+{
 
   // printf("Hello, World!\n");
   // int input;
